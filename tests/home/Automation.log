@@ -1,0 +1,26 @@
+09/25/2020 05:39:33 PM - LoginPage - INFO: Element Found with locator: a[href*='/sign_in'] and locatorType: css
+09/25/2020 05:39:33 PM - LoginPage - INFO: Clicked on element with locator:a[href*='/sign_in'] locatorType: css
+09/25/2020 05:39:38 PM - LoginPage - INFO: Element Found with locator: user_email and locatorType: id
+09/25/2020 05:39:38 PM - LoginPage - INFO: Sent Data on element with locator:user_email locatorType: id
+09/25/2020 05:39:38 PM - LoginPage - INFO: Element Found with locator: user_password and locatorType: id
+09/25/2020 05:39:38 PM - LoginPage - INFO: Sent Data on element with locator:user_password locatorType: id
+09/25/2020 05:39:38 PM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
+09/25/2020 05:39:39 PM - LoginPage - INFO: Clicked on element with locator:commit locatorType: name
+09/25/2020 05:48:14 PM - LoginPage - INFO: Element Found with locator: a[href*='/sign_in'] and locatorType: css
+09/25/2020 05:48:14 PM - LoginPage - INFO: Clicked on element with locator:a[href*='/sign_in'] locatorType: css
+09/25/2020 05:48:19 PM - LoginPage - INFO: Element Found with locator: user_email and locatorType: id
+09/25/2020 05:48:19 PM - LoginPage - INFO: Sent Data on element with locator:user_email locatorType: id
+09/25/2020 05:48:19 PM - LoginPage - INFO: Element Found with locator: user_password and locatorType: id
+09/25/2020 05:48:19 PM - LoginPage - INFO: Sent Data on element with locator:user_password locatorType: id
+09/25/2020 05:48:19 PM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
+09/25/2020 05:48:20 PM - LoginPage - INFO: Clicked on element with locator:commit locatorType: name
+09/25/2020 05:48:22 PM - LoginPage - INFO: Element Found with locator: img[class ='gravatar'] and locatorType: xpath
+09/27/2020 12:07:57 AM - LoginPage - INFO: Element Found with locator: a[href*='/sign_in'] and locatorType: css
+09/27/2020 12:07:57 AM - LoginPage - INFO: Clicked on element with locator:a[href*='/sign_in'] locatorType: css
+09/27/2020 12:08:04 AM - LoginPage - INFO: Element Not Found with locator: user_email and locatorType: id
+09/27/2020 12:08:04 AM - LoginPage - INFO: Cannot sent data on element with locator:user_email locatorType: id
+09/27/2020 12:08:07 AM - LoginPage - INFO: Element Found with locator: user_password and locatorType: id
+09/27/2020 12:08:07 AM - LoginPage - INFO: Sent Data on element with locator:user_password locatorType: id
+09/27/2020 12:08:07 AM - LoginPage - INFO: Element Found with locator: commit and locatorType: name
+09/27/2020 12:08:07 AM - LoginPage - INFO: Clicked on element with locator:commit locatorType: name
+09/27/2020 12:08:15 AM - LoginPage - INFO: Element Not Found with locator: img[class ='gravatar'] and locatorType: xpath
