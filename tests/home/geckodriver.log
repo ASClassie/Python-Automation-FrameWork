@@ -1,35 +1,20 @@
-1600418939760	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\abhay\\AppData\\Local\\Temp\\rust_mozprofileP5MbqF"
-1600419024556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\abhay\\AppData\\Local\\Temp\\rust_mozprofilevaV3rs"
+1601542691795	geckodriver	INFO	Listening on 127.0.0.1:59024
+1601542694876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\abhay\\AppData\\Local\\Temp\\rust_mozprofileJJJc8w"
+1601542709578	geckodriver	INFO	Listening on 127.0.0.1:59059
+1601542712651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\abhay\\AppData\\Local\\Temp\\rust_mozprofileHCEKmi"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600419027229	Marionette	INFO	Listening on port 51206
-1600419027737	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
-JavaScript error: , line 0: uncaught exception: undefined
-1600420643340	Marionette	INFO	Stopped listening on port 51206
+1601542717083	Marionette	INFO	Listening on port 59068
+1601542717424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js, line 32: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js, line 32: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js, line 32: unreachable code after return statement
+JavaScript warning: https://d235vmrai5heq2.cloudfront.net/js/default/review.js, line 32: unreachable code after return statement
+JavaScript error: https://faye.getstream.io/faye?message=%5B%7B%22channel%22%3A%22%2Fmeta%2Fconnect%22%2C%22clientId%22%3A%221-ed8abfd8-4e1b-49b2-9701-7f782e96b15d%22%2C%22connectionType%22%3A%22callback-polling%22%2C%22id%22%3A%224%22%7D%5D&jsonp=__jsonp3__, line 1: ReferenceError: __jsonp3__ is not defined
+1601542776232	Marionette	INFO	Stopped listening on port 59068
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
-
-1600501685642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\abhay\\AppData\\Local\\Temp\\rust_mozprofileZRUqOx"
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600501689731	Marionette	INFO	Listening on port 51805
-1600501689982	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
-1600501716156	Marionette	INFO	Stopped listening on port 51805
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel::SendAndWait] Error: ChaJavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600501718718	Marionette	INFO	Listening on port 51919
-1600501718974	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILURE: Should pass a non-null uri
-1600501731642	Marionette	INFO	Stopped listening on port 51919
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

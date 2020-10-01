@@ -47,25 +47,25 @@ class SeleniumDriver:
 
         return element
 
-    def elementClick(self,locator,locatorType='id'):
+    def elementClick(self, locator, locatorType='id'):
         try:
-            element = self.getElement(locator,locatorType)
+            element = self.getElement(locator, locatorType)
             element.click()
             self.log.info(f'Clicked on element with locator:{locator} locatorType: {locatorType}')
         except:
             self.log.info(f'Cannot click on element with locator:{locator} locatorType: {locatorType}')
             print_stack()
 
-    def sendKeys(self,data,locator,locatorType='id'):
+    def sendKeys(self, data, locator, locatorType='id'):
         try:
-            element = self.getElement(locator,locatorType)
+            element = self.getElement(locator, locatorType)
             element.send_keys(data)
             self.log.info(f'Sent Data on element with locator:{locator} locatorType: {locatorType}')
         except:
             self.log.info(f'Cannot sent data on element with locator:{locator} locatorType: {locatorType}')
             print_stack()
 
-    def isElementPresent(self, locator, locatorType ='id'):
+    def isElementPresent(self, locator, locatorType='id'):
         element = self.getElement(locator, locatorType)
         try:
             if element is not None:
@@ -89,17 +89,16 @@ class SeleniumDriver:
             self.log.info('Element Not Found')
             return False
 
-
-    def waitForElement(self,locator,locatorType='id',timeout=10,pollFrequency=0.5):
+    def waitForElement(self, locator, locatorType='id', timeout=10, pollFrequency=0.5):
         element = None
         try:
             byType = self.getByType(locatorType)
             self.log.info(f'Waiting for Maximium {timeout} :: seconds  for element to be clickable')
 
-            wait =WebDriverWait(self.driver,10,poll_frequency=1,ignored_exceptions=
-                                [NoSuchElementException,ElementNotVisibleException,
-                                 ElementNotSelectableException])
-            element = wait.until(EC.element_to_be_clickable((byType,locator)))
+            wait = WebDriverWait(self.driver, 10, poll_frequency=1, ignored_exceptions=
+            [NoSuchElementException, ElementNotVisibleException,
+             ElementNotSelectableException])
+            element = wait.until(EC.element_to_be_clickable((byType, locator)))
 
             self.log.info('Element appeared on the Webpage')
 
