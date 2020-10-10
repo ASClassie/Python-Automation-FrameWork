@@ -1,3 +1,6 @@
 .DS_Store
 .project
 *.pyc
+BookTest.py
+HelpingInSleep.py
+.pytest_cache

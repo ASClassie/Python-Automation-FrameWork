@@ -6,13 +6,32 @@ import time
 from traceback import print_stack
 import utilities.custom_logger as cl
 import logging
-
+import os
 
 class SeleniumDriver:
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
         self.driver = driver
+
+    def screenshot(self,resultMessage):
+        filename = "message" "." + str(round(time.time() * 1000)) + ".png"
+        screenshotDirectory = "../screenshots/"
+        relativeFileName = screenshotDirectory + filename
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory, relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenshotDirectory)
+
+        try:
+            if not os.path.exists(destinationDirectory):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+            self.log.info('Screenshot save to directory:',destinationDirectory)
+
+        except:
+            self.log.error('### Exception Occurred')
+            print_stack()
+
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()
@@ -33,6 +52,9 @@ class SeleniumDriver:
             self.log.info('Locator Type', locatorType, ' not correct/supported')
 
         return False
+
+    def getTitle(self):
+        return self.driver.title
 
     def getElement(self, locator, locatorType='id'):
         element = None

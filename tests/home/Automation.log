@@ -45,3 +45,28 @@
 10/01/2020 02:49:15 PM - LoginPage - INFO: Element appeared on the Webpage
 10/01/2020 02:49:15 PM - LoginPage - INFO: Element Found with locator: //img[contains(@class,'zl-navbar-rhs-img')] and locatorType: xpath
 10/01/2020 02:49:15 PM - LoginPage - INFO: Element Found
+10/09/2020 01:00:01 PM - LoginPage - INFO: Element Found with locator: a[href*='/login'] and locatorType: css
+10/09/2020 01:00:02 PM - LoginPage - INFO: Clicked on element with locator:a[href*='/login'] locatorType: css
+10/09/2020 01:00:02 PM - LoginPage - INFO: Element Found with locator: email and locatorType: id
+10/09/2020 01:00:02 PM - LoginPage - INFO: Sent Data on element with locator:email locatorType: id
+10/09/2020 01:00:02 PM - LoginPage - INFO: Element Found with locator: password and locatorType: id
+10/09/2020 01:00:02 PM - LoginPage - INFO: Sent Data on element with locator:password locatorType: id
+10/09/2020 01:00:02 PM - LoginPage - INFO: Element Found with locator: input[value="Login"] and locatorType: css
+10/09/2020 01:00:04 PM - LoginPage - INFO: Clicked on element with locator:input[value="Login"] locatorType: css
+10/09/2020 01:00:04 PM - LoginPage - INFO: Waiting for Maximium 5 :: seconds  for element to be clickable
+10/09/2020 01:00:16 PM - LoginPage - INFO: Element not appeared on the webpage
+10/09/2020 01:00:20 PM - LoginPage - INFO: Element Not Found with locator: //span[@class="dynamic-text help-block"] and locatorType: xpath
+10/09/2020 01:00:20 PM - LoginPage - INFO: Element Found with locator: a[href*='/login'] and locatorType: css
+10/09/2020 01:00:21 PM - LoginPage - INFO: Clicked on element with locator:a[href*='/login'] locatorType: css
+10/09/2020 01:00:21 PM - LoginPage - INFO: Element Found with locator: email and locatorType: id
+10/09/2020 01:00:21 PM - LoginPage - INFO: Sent Data on element with locator:email locatorType: id
+10/09/2020 01:00:21 PM - LoginPage - INFO: Element Found with locator: password and locatorType: id
+10/09/2020 01:00:21 PM - LoginPage - INFO: Sent Data on element with locator:password locatorType: id
+10/09/2020 01:00:21 PM - LoginPage - INFO: Element Found with locator: input[value="Login"] and locatorType: css
+10/09/2020 01:00:59 PM - LoginPage - INFO: Clicked on element with locator:input[value="Login"] locatorType: css
+10/09/2020 01:00:59 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title is Incorrect
+10/09/2020 01:01:02 PM - LoginPage - INFO: Waiting for Maximium 5 :: seconds  for element to be clickable
+10/09/2020 01:01:02 PM - LoginPage - INFO: Element appeared on the Webpage
+10/09/2020 01:01:02 PM - LoginPage - INFO: Element Found with locator: //img[contains(@class,'zl-navbar-rhs-img')] and locatorType: xpath
+10/09/2020 01:01:02 PM - LoginPage - INFO: Element Found
+10/09/2020 01:01:02 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
